@@ -79,16 +79,6 @@ export default function App() {
         message={toast.message}
         onClose={() => setToast({ ...toast, open: false })}
       />
-
-      <h3>Favoritos </h3>
-      <div className="gallery">
-        {favorites.length === 0 && <p>No tienes favoritos aún.</p>}
-        {favorites.map((img) => (
-          <div key={img} className="dog-card">
-            <img src={img} alt="favorito" />
-          </div>
-        ))}
-      </div>
     </div>
   );
 }
