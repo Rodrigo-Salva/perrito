@@ -77,7 +77,7 @@ export default function App() {
       <Toast
         open={toast.open}
         message={toast.message}
-        onClose={() => setToast({ ...toast, open: false })}
+        onClose={() => setToast({ ...toast, open: false})}
       />
     </div>
   );

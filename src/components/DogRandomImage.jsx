@@ -20,12 +20,12 @@ export default function DogRandomImage() {
   return (
     <div>
       <button onClick={fetchDog} className="dog-btn">
-        ¡Dame un perro aleatorio!
+        Cambiame
       </button>
       {loading && <p>Cargando...</p>}
       {image && (
         <div>
-          <img src={image} alt="Perro aleatorio" className="dog-img" />
+          <img src={image} alt="Perro aleatorio" className="dog.-img" />
         </div>
       )}
     </div>
